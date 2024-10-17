@@ -1,0 +1,133 @@
+/* variable */
+:root {
+  --warna-utama: #b7e0e2;
+  --warna-gelap: #0f0f0f;
+  --grey-color: #778899;
+
+  --h1-font-size: 10px;
+  --h2-font-size: 10px;
+  --small-font-size: 14px;
+}
+
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  padding: 70px 0;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: var(--warna-utama);
+}
+
+.header-section .header-title {
+  color: var(--warna-utama);
+}
+
+.header-section .header-title-2 {
+  color: var(--warna-gelap);
+  font-size: px;
+}
+
+.header-section .header-skill {
+  color: var(--warna-gelap);
+  text-decoration: none;
+}
+
+.header-section .header-skill i {
+  transition: 0.3s;
+}
+
+.header-section .header-skill:hover {
+  color: var(--warna-utama);
+}
+
+.header-section .header-skill:hover i {
+  transform: rotate(-45deg);
+}
+
+.header-section .header-img {
+  width: 90%;
+}
+
+section {
+  padding: 70px 0;
+}
+
+section .section-title {
+  font-size: var(--h2-font-size);
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.text-yellow {
+  color: var(--warna-utama);
+}
+
+.btn-warna {
+  background-color: var(--warna-utama);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.text-warna {
+  color: var(--warna-utama);
+}
+
+.portfolio-section {
+  background-color: var(--warna-utama);
+}
+
+.portfolio-section .card .card-img-top {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio-section .card a {
+    margin: 4px;
+    font-size: 12px;
+  }
+  .portfolio-section .card {
+    font-size: 14px;
+  }
+}
+
+/* skills */
+.skills-section {
+  background-color: var(--warna-utama);
+}
+
+.skills-section .progress-bar {
+  width: 100%;
+  height: 10px;
+  background-color: var(--grey-color);
+  border-radius: 10px;
+}
+
+/* news */
+.news-section .card .card-img-top {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .news-section .card p {
+    font-size: 14px;
+  }
+
+  .news-section .card a {
+    font-size: 12px;
+  }
+}
+
+.bg-color {
+  background-color: rgb(15, 199, 153);
+}
